@@ -14,6 +14,8 @@ and tagged `1.0.0` (`git checkout 1.0.0`), hereafter referred to as Original Tag
 
 The original README [can be found here](readme.txt).
 
+The original project web page (courtesy of Internet Archive) [has been preserved here](https://web.archive.org/web/20010802051250/http://www.crosswinds.net/~sskr/dcompile/disc.htm).
+
 ## Copyright
 
 The following copyright notice is attached, and must stay attached to the code:
