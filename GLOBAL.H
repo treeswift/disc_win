@@ -27,13 +27,22 @@ extern int wherey();
 
 #ifdef WIN32
 
+#include <windows.h>
+
 extern Word gCodeSegment;
 extern Byte *gCodePtr;
 
-#define FAR 
 #define FP_SEG(fptr) (gCodeSegment)
 #define FP_OFF(fptr) (((Byte *)fptr - gCodePtr))
 #define MK_FP(seg, off) (gCodePtr + off)
+
+#ifdef _CRT_NONSTDC_DEPRECATE
+#define getch _getch
+#define itoa _itoa
+#define kbhit _kbhit
+#define strupr _strupr
+#define gets(s) gets_s(s, sizeof(s))
+#endif
 
 #else
 

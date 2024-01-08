@@ -9,10 +9,10 @@
 // Permission is granted to use this software for research purposes as
 // long as this notice stays attached to this software.
 /*---------------------------------------------------------------------------*/
+#include <conio.h>
 #include "DisC.h"
 #include "LibWiz.h"
 #include "Disasm.h"
-#include <conio.h>
 TLibWizard::TLibWizard()
 {
     FuncNames=0;
