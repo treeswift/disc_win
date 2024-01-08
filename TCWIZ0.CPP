@@ -624,7 +624,7 @@ ComForFindAndStore:
             else
             {
                 GlobalVars.Add(v,VAR_USER_FUNCTION,0,NULL);
-                sprintf(errorStr,"Function at address %Fp not found in library",ProcTable[i]);
+                sprintf(errorStr,"Function at address %p not found in library",ProcTable[i]);
                 ErrorList.Add(errorStr);
                 if (Recurse) Pass1(ProcTable[i],Recurse);
             }

@@ -985,7 +985,7 @@ Word Disasm::DispPage(int NumLines)
   {
     int InstLength;
     String Instr = GetAsm(Insts,InstLength);
-    printf("%Fp ",Insts);
+    printf("%p ",Insts);
     for(int i=0;i<InstLength;i++)
       printf("%2.2X",Insts[i]);
     if (InstLength<3) printf("\t");
