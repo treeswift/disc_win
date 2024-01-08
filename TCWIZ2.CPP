@@ -127,7 +127,7 @@ void TcWizard::TranslateBlock(
     Inst = BlockBegin;
     Dword ctr = 0;
     String tmp,tmp1,toStr;
-    InstInfo inst,previnst;
+    InstInfo inst = {}, previnst = {};
     char PrevImmValueStored=0;
     Word PrevImmediateValue;		// Used in converting 'long-int' code.
     Variable v1;
