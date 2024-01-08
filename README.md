@@ -44,3 +44,13 @@ state to the Original Commit (or, less strictly, to the Original Tag).
 Consistent with our mission of digital preservation, we hereby state that (a) we RESERVE NO RIGHTS
 pertinent to such changes and additions and (b) release all of the aforementioned changes and additions
 into the public domain by applying the terms of the [Unlicense License](https://unlicense.org/UNLICENSE).
+
+# Porting history
+
+## Changelog
+
+* The VC 6.0 project and solution (DSP+DSW) have been converted to MSVC 2019's SLN and VCXPROJ.
+
+## Current state
+
+Honestly, we just began.

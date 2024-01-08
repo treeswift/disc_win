@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a97a47ca-8565-4bae-a56d-ed18751ea131}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7cc902be-d492-40b7-a5a9-532f2bc2816c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b46f78a7-f242-4080-8813-063161c23b50}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BEAUTIFY.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DISASM.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DISC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INSTINFO.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBWIZ.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MYSTRING.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PROGRAM.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STRLIST.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCWIZ0.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCWIZ1.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCWIZ2.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VARIABLE.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BEAUTIFY.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DISASM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DISC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLOBAL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INSTINFO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBWIZ.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MYSTRING.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PROGRAM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STRLIST.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCWIZARD.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDTYPES.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VARIABLE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WIZARD.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
