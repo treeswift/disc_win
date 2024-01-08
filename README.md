@@ -50,6 +50,7 @@ into the public domain by applying the terms of the [Unlicense License](https://
 ## Changelog
 
 * The VC 6.0 project and solution (DSP+DSW) have been converted to MSVC 2019's SLN and VCXPROJ.
+* Both x86 configurations (Debug and Release) build without issues (chiefly, CRT I/O API and C/C++ language standard(s))
 
 ## Current state
 
