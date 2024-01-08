@@ -97,7 +97,7 @@ void DisplayErrors()
     getch();
 }
 
-main(int argc,char *argv[])
+int main(int argc,char *argv[])
 {
     Program prog;
     Dword funcaddr;
