@@ -74,7 +74,7 @@ void TcWizard::FillSwitchInfo(Byte FAR *Inst,InstInfo &inst,SwitchInfo &SwInfo)
         Word FAR *Addrs = (Word FAR *)MK_FP(Segment,d.CurInst.Data12);
         int *tab = new int[(SwInfo.NumClauses+1)*2];
         assert(tab!=NULL);
-        for(int i=0;i<SwInfo.NumClauses;i++)
+        int i=0; for(;i<SwInfo.NumClauses;i++)
             tab[i] = i;
         for(int j=0;i<2*SwInfo.NumClauses;i++,j++)
             tab[i] = Addrs[j];
@@ -126,7 +126,7 @@ Byte FAR *TcWizard::DecodeSwitchStatement(SwitchInfo &SwInfo,int How,StringList 
     {
         // 2 - denotes the sizeof(int). Only integers can be used in SWITCH.
         Word addr = *(Word FAR *)(SwInfo.SwitchTable+i*2+SwInfo.NumClauses*2);
-        for(int j=0;j<i;j++)
+        int j=0; for(;j<i;j++)
             if (addr<SwitchAddrs[j])
                 break;
         for(int k=SwInfo.NumClauses;k>j;k--)
@@ -148,7 +148,7 @@ Byte FAR *TcWizard::DecodeSwitchStatement(SwitchInfo &SwInfo,int How,StringList 
     {
         Word addr = SwitchAddrs[i];
         Word FAR *AddrTable = ((Word FAR *)SwInfo.SwitchTable)+SwInfo.NumClauses;
-        for(int j=0;j<SwInfo.NumClauses;j++)
+        int j=0; for(;j<SwInfo.NumClauses;j++)
             if (AddrTable[j]==addr)
                 break;
         // 2 - denotes the sizeof(int). Only integers can be used in SWITCH.

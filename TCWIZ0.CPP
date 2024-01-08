@@ -62,7 +62,7 @@ Flush - resets the object for another trial with the same
 --------------------------------------------------------------*/
 void TcWizard::Flush()
 {
-    for(int i=0;i<8+8;i++)
+    int i=0; for(;i<8+8;i++)
         ((char *)Regs[i])[0]=0;
 
     for(i=0;i<NUM_STACK_LINES;i++)

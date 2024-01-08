@@ -272,7 +272,7 @@ ComForFindAndStore:
             if (NumLabelsfound)
             {
                 int lab = atoi(str+10);
-                for(int i=0;i<NumUsedLabels;i++)
+                int i=0; for(;i<NumUsedLabels;i++)
                     if (LabelArr[i]==lab) break;
                 if (i==NumUsedLabels) LabelArr[NumUsedLabels++] = lab;
             }
@@ -296,7 +296,7 @@ ComForFindAndStore:
         if (strncmp(tmp->Data,"Label",5)==0)
         {
             int lab = atoi(tmp->Data+5);
-            for(int i=0;i<NumUsedLabels;i++)
+            int i=0; for(;i<NumUsedLabels;i++)
                 if (LabelArr[i]==lab) break;
             if (i==NumUsedLabels)
                 sList->Delete(tmp);

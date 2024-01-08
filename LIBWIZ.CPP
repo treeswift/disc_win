@@ -267,7 +267,7 @@ int TLibWizard::CheckInLibrary(
     FILE *fp = fopen(LibFileName,"rb");
     if (!fp) return 1;
 
-    for(int i=0;i<NumGivenProcs;i++)
+    int i=0; for(;i<NumGivenProcs;i++)
         CmpPercent[i]=-1;
     Disasm d;
     while(!EndOfLibrary(fp))
